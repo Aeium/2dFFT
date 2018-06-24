@@ -30,18 +30,18 @@ def hartley( n ):
 
   return a
 
-for i in range(9 ** 3):
+for i in range(16 ** 3):
 
     print i
 
   
-    im = Image.open('blocky_2.png')
+    #im = Image.open('blocky_2.png')
 
     range = np.linspace(.28,.04,50)
 
-    imArray = np.asarray(im)
+    #imArray = np.asarray(im)
 
-    imArray = np.zeros((801,801,3))
+    imArray = np.zeros((512,512,3))
 
     #editIm = Image.fromarray(np.uint8(imArray))
 
